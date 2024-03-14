@@ -4,13 +4,26 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+      <ProjectReference Include="..\MetricsAPI.Application\MetricsAPI.Application.csproj" />
+      <ProjectReference Include="..\MetricsAPI.Database\MetricsAPI.Database.csproj" />
+      <ProjectReference Include="..\MetricsAPI.Domain\MetricsAPI.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MetricsAPI.Application\MetricsAPI.Application.csproj" />
+      <ProjectReference Include="..\MetricsAPI.Domain\MetricsAPI.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="MediatR\Commands\CreateHistogram\" />
+      <Folder Include="MediatR\Queries\GetMetricsByNameInTime\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
     </ItemGroup>
 
 </Project>
