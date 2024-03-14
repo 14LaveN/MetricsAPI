@@ -1,3 +1,4 @@
+using MetricsAPI.Application.ApiHelpers.ExceptionHandler;
 using Microsoft.Extensions.DependencyInjection;
 using MetricsAPI.Application.Common;
 using MetricsAPI.Application.Core.Abstractions.Common;
@@ -14,6 +15,8 @@ public static class DependencyInjection
         
         services.AddScoped<CreateMetricsHelper>();
         services.AddScoped<IDateTime, MachineDateTime>();
+
+        services.AddExceptionHandler<GlobalExceptionHandler>();
         
         return services;
     }

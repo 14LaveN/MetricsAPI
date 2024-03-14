@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Metrics\CreateMetric\" />
+      <ProjectReference Include="..\MetricsAPI.Domain\MetricsAPI.Domain.csproj" />
     </ItemGroup>
 
 </Project>

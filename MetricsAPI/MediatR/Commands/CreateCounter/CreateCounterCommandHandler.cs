@@ -27,7 +27,7 @@ internal sealed class CreateCounterCommandHandler(
     {
         try
         {
-            logger.LogInformation($"Request for create the counter by name - {request.CounterName}");
+            logger.LogInformation($"Request for create the counter by name - {request.CounterName}.");
 
             var counters = await metricsRepository
                 .GetMetricsByTime(request.CounterName, -5);
@@ -44,7 +44,7 @@ internal sealed class CreateCounterCommandHandler(
                     TimeSpan.FromMinutes(6));
             }
             
-            logger.LogInformation($"Counter created - {request.CounterName} {DateTime.UtcNow}");
+            logger.LogInformation($"Counter created - {request.CounterName} {DateTime.UtcNow}.");
 
             return new BaseResponse<Result>
             {

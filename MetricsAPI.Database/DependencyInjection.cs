@@ -1,4 +1,6 @@
 using MetricsAPI.Application.Core.Settings;
+using MetricsAPI.Database.Data.Interfaces;
+using MetricsAPI.Database.Data.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,6 +24,8 @@ public static class DependencyInjection
         
         services.Configure<MongoSettings>(configuration.GetSection(MongoSettings.MongoSettingsKey));
 
+        services.AddScoped<IMetricsRepository, MetricsRepository>();
+        
         services.AddHealthChecks()
             .AddMongoDb(configuration.GetConnectionString("MongoConnection")!);
 

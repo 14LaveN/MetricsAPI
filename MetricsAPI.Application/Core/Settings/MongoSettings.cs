@@ -21,11 +21,6 @@ public sealed class MongoSettings
     public string Database { get; set; } = null!;
 
     /// <summary>
-    /// Gets or sets Rabbit Messages Collection Name.
-    /// </summary>
-    public string RabbitMessagesCollectionName { get; set; } = null!;
-
-    /// <summary>
     /// Gets or sets Metrics Collection Name.
     /// </summary>
     public string MetricsCollectionName { get; set; } = null!;

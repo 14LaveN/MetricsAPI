@@ -1,0 +1,12 @@
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\bin\Debug\net8.0\MetricsAPI.Contracts.deps.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\bin\Debug\net8.0\MetricsAPI.Contracts.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\bin\Debug\net8.0\MetricsAPI.Contracts.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.AssemblyInfoInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.AssemblyInfo.cs
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.sourcelink.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\refint\MetricsAPI.Contracts.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\ref\MetricsAPI.Contracts.dll

@@ -1,6 +1,6 @@
-using MetricsAPI.Domain.Common.Core.Errors;
 using MetricsAPI.Domain.Common.Core.Primitives;
 using MetricsAPI.Domain.Common.Core.Primitives.Result;
+using MetricsAPI.Domain.Core.Errors;
 
 namespace MetricsAPI.Domain.Common.ValueObjects;
 
@@ -18,7 +18,7 @@ public class Name : ValueObject
     /// Initializes a new instance of the <see cref="Name"/> class.
     /// </summary>
     /// <param name="value">The name value.</param>
-    private Name(string value) => Value = value;
+    public Name(string value) => Value = value;
 
     /// <summary>
     /// Gets the name value.

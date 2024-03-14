@@ -112,6 +112,101 @@
         }
       }
     },
+    "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\MetricsAPI.BackgroundTasks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\MetricsAPI.BackgroundTasks.csproj",
+        "projectName": "MetricsAPI.BackgroundTasks",
+        "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\MetricsAPI.BackgroundTasks.csproj",
+        "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ponom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Application\\MetricsAPI.Application.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Application\\MetricsAPI.Application.csproj"
+              },
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Cache\\MetricsAPI.Cache.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Cache\\MetricsAPI.Cache.csproj"
+              },
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Domain\\MetricsAPI.Domain.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Domain\\MetricsAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Cache\\MetricsAPI.Cache.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -157,6 +252,69 @@
               "version": "[8.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj",
+        "projectName": "MetricsAPI.Contracts",
+        "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ponom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Domain\\MetricsAPI.Domain.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Domain\\MetricsAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -354,6 +512,12 @@
               "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Application\\MetricsAPI.Application.csproj": {
                 "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Application\\MetricsAPI.Application.csproj"
               },
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\MetricsAPI.BackgroundTasks.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.BackgroundTasks\\MetricsAPI.BackgroundTasks.csproj"
+              },
+              "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj": {
+                "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj"
+              },
               "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Database\\MetricsAPI.Database.csproj": {
                 "projectPath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Database\\MetricsAPI.Database.csproj"
               },
@@ -373,6 +537,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Prometheus.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Prometheus.Client.HttpRequestDurations": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0-dev-02122, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.1-dev-00575, )"
+            },
             "prometheus-net.AspNetCore": {
               "target": "Package",
               "version": "[8.2.1, )"

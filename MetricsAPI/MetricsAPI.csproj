@@ -4,10 +4,15 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\MetricsAPI.Application\MetricsAPI.Application.csproj" />
+      <ProjectReference Include="..\MetricsAPI.BackgroundTasks\MetricsAPI.BackgroundTasks.csproj" />
+      <ProjectReference Include="..\MetricsAPI.Contracts\MetricsAPI.Contracts.csproj" />
       <ProjectReference Include="..\MetricsAPI.Database\MetricsAPI.Database.csproj" />
       <ProjectReference Include="..\MetricsAPI.Domain\MetricsAPI.Domain.csproj" />
     </ItemGroup>
@@ -18,12 +23,19 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="MediatR\Commands\CreateHistogram\" />
-      <Folder Include="MediatR\Queries\GetMetricsByNameInTime\" />
+      <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.3" />
+      <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+      <PackageReference Include="Prometheus.Client.AspNetCore" Version="5.0.0" />
+      <PackageReference Include="Prometheus.Client.HttpRequestDurations" Version="3.6.0" />
+      <PackageReference Include="Serilog" Version="4.0.0-dev-02122" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1-dev-00575" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

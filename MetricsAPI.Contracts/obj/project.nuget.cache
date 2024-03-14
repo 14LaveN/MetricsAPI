@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "25d5z9//CVWIo+TsonjrC8aLJ7tsQHtcj9vzo3OwZTsnVUszBon0enGiOiS7cXgmuq7vvp3d+L9j2Dy/jkP1ew==",
+  "dgSpecHash": "rHqo3nd3/+5x87h28UNX043YVeFsQsPTM2b5ComCCHERLdOppM6FPdSM8MyPupdXqlsHmryHzY4fUKuPFyprYw==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Contracts\\MetricsAPI.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ponom\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\mongodb.bson\\2.24.0\\mongodb.bson.2.24.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -17,8 +17,7 @@ public static class BDependencyInjection
     /// <param name="configuration">The configuration.</param>
     /// <returns>The same service collection.</returns>
     public static IServiceCollection AddBackgroundTasks(
-        this IServiceCollection services,
-        IConfiguration configuration)
+        this IServiceCollection services)
     {
         services.AddMediatR(x=>
             x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));

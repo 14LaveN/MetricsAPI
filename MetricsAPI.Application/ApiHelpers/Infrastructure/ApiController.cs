@@ -13,7 +13,7 @@ namespace MetricsAPI.Application.ApiHelpers.Infrastructure;
 [ApiController]
 [Produces("application/json")]
 [ApiExplorerSettings(GroupName = "v1")]
-public class ApiController : ControllerBase
+public class ApiController : Controller
 {
     protected ApiController(
         ISender sender,

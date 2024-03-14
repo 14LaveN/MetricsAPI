@@ -1,0 +1,13 @@
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\bin\Debug\net8.0\MetricsAPI.Domain.deps.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\bin\Debug\net8.0\MetricsAPI.Domain.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\bin\Debug\net8.0\MetricsAPI.Domain.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.csproj.AssemblyReference.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.AssemblyInfoInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.AssemblyInfo.cs
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.sourcelink.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\refint\MetricsAPI.Domain.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\MetricsAPI.Domain.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Domain\obj\Debug\net8.0\ref\MetricsAPI.Domain.dll

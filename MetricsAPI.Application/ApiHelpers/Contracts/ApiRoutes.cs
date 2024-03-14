@@ -6,18 +6,14 @@
 public static class ApiRoutes
 {
     /// <summary>
-    /// Contains the task routes.
+    /// Contains the metrics routes.
     /// </summary>
-    public static class Task
+    public static class Metrics
     {
-        public const string Create = "create-task";
-
-        public const string DoneTask = "donetask/{taskId:guid}";
-
-        public const string GetAuthorTasksByIsDone = "get-authror_tasks-by-is_done";
+        public const string CreateCounter = "create-counter";
         
-        public const string GetTaskById = "get-task/{taskId:guid}";
+        public const string CreateHistogram = "create-histogram";
         
-        public const string Update = "update-task/{taskId:guid}";
+        public const string GetMetricsByNameInTime = "get-metrics-by-name-in-time/{name:string/{time:int}";
     }
 }

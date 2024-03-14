@@ -1,0 +1,13 @@
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\bin\Debug\net8.0\MetricsAPI.Cache.deps.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\bin\Debug\net8.0\MetricsAPI.Cache.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\bin\Debug\net8.0\MetricsAPI.Cache.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.csproj.AssemblyReference.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.AssemblyInfoInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.AssemblyInfo.cs
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.sourcelink.json
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\refint\MetricsAPI.Cache.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\MetricsAPI.Cache.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Cache\obj\Debug\net8.0\ref\MetricsAPI.Cache.dll
