@@ -29,6 +29,9 @@ internal static class DiCaching
             options.InstanceName = "Metrics_";
         });
 
+        services.AddHealthChecks()
+            .AddRedis("localhost:6379");
+
         services.AddDistributedMemoryCache();
         
         return services;

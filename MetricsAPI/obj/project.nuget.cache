@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RnVcN73kuxuNulcQIDqqL9lCJe7J8H/DhfKZSRP2DDxP1ak4zZKiNS8Lz2CgOKuiS1Bz7tWGGV5hWKHvppcMxA==",
+  "dgSpecHash": "rvxnrk1cDpIORYutUnU2JfSwx5tMvufFWXsULlxi2OonrWn7wLkEz3Z0ThyEjJr8IJfAVYrCkrqxzS01OcdY0g==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI\\MetricsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ponom\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\8.0.0\\aspnetcore.healthchecks.mongodb.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\aspnetcore.healthchecks.redis\\8.0.0\\aspnetcore.healthchecks.redis.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\8.0.0\\aspnetcore.healthchecks.ui.client.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\8.0.0\\aspnetcore.healthchecks.ui.core.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
@@ -73,7 +74,7 @@
     "C:\\Users\\ponom\\.nuget\\packages\\serilog.settings.configuration\\8.0.1-dev-00575\\serilog.settings.configuration.8.0.1-dev-00575.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
-    "C:\\Users\\ponom\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\stackexchange.redis\\2.7.4\\stackexchange.redis.2.7.4.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
@@ -99,7 +100,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.WebApi.Core 5.3.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net8.0"

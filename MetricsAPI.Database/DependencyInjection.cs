@@ -24,6 +24,8 @@ public static class DependencyInjection
         
         services.Configure<MongoSettings>(configuration.GetSection(MongoSettings.MongoSettingsKey));
 
+        services.AddTransient<MongoSettings>(_ => new MongoSettings());
+        
         services.AddScoped<IMetricsRepository, MetricsRepository>();
         
         services.AddHealthChecks()

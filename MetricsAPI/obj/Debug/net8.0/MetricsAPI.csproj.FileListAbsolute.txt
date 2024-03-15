@@ -97,3 +97,4 @@ G:\DotNetProjects\MetricsAPI\MetricsAPI\obj\Debug\net8.0\MetricsAPI.genruntimeco
 G:\DotNetProjects\MetricsAPI\MetricsAPI\obj\Debug\net8.0\ref\MetricsAPI.dll
 G:\DotNetProjects\MetricsAPI\MetricsAPI\bin\Debug\net8.0\MetricsAPI.xml
 G:\DotNetProjects\MetricsAPI\MetricsAPI\obj\Debug\net8.0\MetricsAPI.xml
+G:\DotNetProjects\MetricsAPI\MetricsAPI\bin\Debug\net8.0\HealthChecks.Redis.dll
