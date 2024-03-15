@@ -10,126 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb24ac9-283a-452c-a464-7251a4314046" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/GetMetricsByNameInTimeQueryHandlerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/ApiHelpers/Contracts/ApiRoutes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/ApiHelpers/Contracts/ApiRoutes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/Core/Settings/MongoSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/Core/Settings/MongoSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/bin/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/ref/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/ref/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/refint/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/refint/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/bin/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/ref/MetricsAPI.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/ref/MetricsAPI.BackgroundTasks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/refint/MetricsAPI.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/refint/MetricsAPI.BackgroundTasks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/bin/Debug/net8.0/MetricsAPI.Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/ref/MetricsAPI.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/ref/MetricsAPI.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/refint/MetricsAPI.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/refint/MetricsAPI.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/Data/Repositories/MetricsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/Data/Repositories/MetricsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Database.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Database.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Database.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Database.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/bin/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/ref/MetricsAPI.Database.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/ref/MetricsAPI.Database.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/refint/MetricsAPI.Database.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/refint/MetricsAPI.Database.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/Core/Primitives/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/Core/Primitives/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/Entities/MetricEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/Entities/MetricEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/Entities/RabbitMessage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/ValueObjects/Name.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/ValueObjects/Name.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/bin/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/bin/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/bin/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/bin/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/ref/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/ref/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/refint/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/refint/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/MetricsAPI.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/MetricsAPI.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/MetricsAPI.Tests.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/Common/DependencyInjection/DiMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/Common/DependencyInjection/DiMediator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/Controllers/V1/MetricsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/Controllers/V1/MetricsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateCounter/CreateCounterCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateCounter/CreateCounterCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/MediatR/Queries/GetMetricsByNameInTime/GetMetricsByNameInTimeQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/MediatR/Queries/GetMetricsByNameInTime/GetMetricsByNameInTimeQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.BackgroundTasks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Database.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Database.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Database.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Database.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/bin/Debug/net8.0/MetricsAPI.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/ref/MetricsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/ref/MetricsAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/refint/MetricsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/refint/MetricsAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateHistogramCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateCounterCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateCounterCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateHistogram/CreateHistogramCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateHistogram/CreateHistogramCommandHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +38,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4d0bee010ab6739d7adfefec537d89d81be328198363011e28f7cb4b8d58321/XunitWorkerThread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb367341658aaedd7de424d4c9189db33c4387e268dcc4011918569442ab12/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fbd438bbbcc016366027295f46e0862415ca37d1f8ada5746862442e8db81e9c/TestMethodRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MetricsAPI.Application/ApiHelpers/Configurations/SwaggerConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -297,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710383262129</updated>
       <workItem from="1710383263227" duration="13653000" />
-      <workItem from="1710470403711" duration="1887000" />
+      <workItem from="1710470403711" duration="2401000" />
     </task>
     <servers />
   </component>
@@ -413,6 +297,58 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/GetMetricsByNameInTimeQueryHandlerTests.cs</url>
+          <line>18</line>
+          <properties documentPath="G:\DotNetProjects\MetricsAPI\MetricsAPI.Tests\UnitTests\Commands\GetMetricsByNameInTimeQueryHandlerTests.cs" initialLine="18" containingFunctionPresentation="Method 'GetMetricsByNameInTimeQueryHandle_AssertWithOk'">
+            <startOffsets>
+              <option value="726" />
+            </startOffsets>
+            <endOffsets>
+              <option value="727" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MetricsAPI/MediatR/Queries/GetMetricsByNameInTime/GetMetricsByNameInTimeQueryHandler.cs</url>
+          <line>22</line>
+          <properties documentPath="G:\DotNetProjects\MetricsAPI\MetricsAPI\MediatR\Queries\GetMetricsByNameInTime\GetMetricsByNameInTimeQueryHandler.cs" initialLine="22" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="922" />
+            </startOffsets>
+            <endOffsets>
+              <option value="923" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateHistogram/CreateHistogramCommandHandler.cs</url>
+          <line>28</line>
+          <properties documentPath="G:\DotNetProjects\MetricsAPI\MetricsAPI\MediatR\Commands\CreateHistogram\CreateHistogramCommandHandler.cs" initialLine="28" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="1106" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1107" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateHistogramCommandHandlerTests.cs</url>
+          <line>19</line>
+          <properties documentPath="G:\DotNetProjects\MetricsAPI\MetricsAPI.Tests\UnitTests\Commands\CreateHistogramCommandHandlerTests.cs" initialLine="19" containingFunctionPresentation="Method 'CreateHistogramCommandHandle_AssertWithOk'">
+            <startOffsets>
+              <option value="751" />
+            </startOffsets>
+            <endOffsets>
+              <option value="752" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,5 +6,6 @@
     &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Database.MetricsRepositoryTests.InsertRangeMetrics_AssertWithOk&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Commands.CreateCounterCommandHandlerTests.CreateCounterCommandHandle_AssertWithOk&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Commands.GetMetricsByNameInTimeQueryHandlerTests.GetMetricsByNameInTimeQueryHandle_AssertWithOk&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Commands.CreateHistogramCommandHandlerTests.CreateHistogramCommandHandle_AssertWithOk&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

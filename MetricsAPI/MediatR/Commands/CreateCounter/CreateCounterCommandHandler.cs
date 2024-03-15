@@ -29,10 +29,10 @@ public sealed class CreateCounterCommandHandler(
         {
             logger.LogInformation($"Request for create the counter by name - {request.CounterName}.");
 
-            var counters = await metricsRepository
+            var metricsByTime = await metricsRepository
                 .GetMetricsByTime(request.CounterName, -5);
 
-            if (counters.Value.Count is 0)
+            if (metricsByTime.Value.Count is 0)
             {
                 Counter counter =
                     Metrics.CreateCounter(request.CounterName, request.CounterDescription);

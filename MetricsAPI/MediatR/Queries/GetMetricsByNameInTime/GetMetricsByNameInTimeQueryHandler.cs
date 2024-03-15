@@ -28,7 +28,7 @@ public sealed class GetMetricsByNameInTimeQueryHandler(
             var metricsInTime = await metricsRepository
                 .GetMetricsByTime(request.MetricName, request.Time);
 
-            if (metricsInTime.HasNoValue)
+            if (metricsInTime.Value.Count is 0)
             {
                 logger.LogWarning($"Metrics by name - {request.MetricName} in time - {request.Time} not found.");
 

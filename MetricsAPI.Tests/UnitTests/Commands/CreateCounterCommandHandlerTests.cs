@@ -32,19 +32,4 @@ public sealed class CreateCounterCommandHandlerTests
         result.StatusCode.Should().NotBe(StatusCode.InternalServerError);
         result.Description.Should().Be("Create counter.");
     }
-    
-    [Fact]
-    public async Task GetMetricsByNameInTimeQueryHandle_AssertWithOk()
-    {
-        var fixture = new Fixture();
-        var metricNumber = fixture.Create<int>();
-        var command = fixture.Create<CreateCounterCommand>();
-
-        command.CounterName.Value = $"metric_{metricNumber}";
-
-        var result = await _handler.Handle(command);
-
-        result.StatusCode.Should().NotBe(StatusCode.InternalServerError);
-        result.Description.Should().Be("Create counter.");
-    }
 }

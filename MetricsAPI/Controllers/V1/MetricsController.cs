@@ -83,7 +83,7 @@ public class MetricsController(ISender sender)
     [HttpGet(ApiRoutes.Metrics.GetMetricsByNameInTime)]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> GetAuthorTasksByIsDone(MetricRequest request) =>
+    public async Task<IActionResult> GetAuthorTasksByIsDone([FromRoute] MetricRequest request) =>
         await Maybe<GetMetricsByNameInTimeQuery>
             .From(new GetMetricsByNameInTimeQuery(request.MetricName,request.Time))
             .Bind<GetMetricsByNameInTimeQuery, Maybe<List<MetricResponse>>>(async query => await BaseRetryPolicy.Policy.Execute(async () =>

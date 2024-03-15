@@ -14,7 +14,7 @@ namespace MetricsAPI.MediatR.Commands.CreateHistogram;
 /// <summary>
 /// Represents the <see cref="CreateHistogramCommand"/> handler class.
 /// </summary>
-internal sealed class CreateHistogramCommandHandler(
+public sealed class CreateHistogramCommandHandler(
         ILogger<CreateHistogramCommandHandler> logger,
         IMetricsRepository metricsRepository,
         IDistributedCache cache)
@@ -23,16 +23,18 @@ internal sealed class CreateHistogramCommandHandler(
     //TODO How creating counter ever create new counter in redis.
     
     /// <inheritdoc />
-    public async Task<IBaseResponse<Result>> Handle(CreateHistogramCommand request, CancellationToken cancellationToken)
+    public async Task<IBaseResponse<Result>> Handle(
+        CreateHistogramCommand request,
+        CancellationToken cancellationToken = default)
     {
         try
         {
             logger.LogInformation($"Request for create the histogram by name - {request.HistogramName}.");
 
-            var counters = await metricsRepository
+            var metricsByTime = await metricsRepository
                 .GetMetricsByTime(request.HistogramName, -5);
 
-            if (counters.HasNoValue)
+            if (metricsByTime.Value.Count is 0)
             {
                 Histogram histogram =
                     Metrics.CreateHistogram(request.HistogramName, request.HistogramDescription);
