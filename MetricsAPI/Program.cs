@@ -36,6 +36,7 @@ builder.Services.AddApplication();
 
 #region ApplicationRegion
 
+
 var app = builder.Build();
 
 if (builder.Environment.IsDevelopment())
