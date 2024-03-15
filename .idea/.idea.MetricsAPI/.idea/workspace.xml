@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb24ac9-283a-452c-a464-7251a4314046" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateHistogramCommandHandlerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateCounterCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Commands/CreateCounterCommandHandlerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateHistogram/CreateHistogramCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/MediatR/Commands/CreateHistogram/CreateHistogramCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Database/MetricsRepositoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Database/MetricsRepositoryTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,28 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/DotNetProjects/MetricsAPI/MetricsAPI.sln",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/DotNetProjects/MetricsAPI/MetricsAPI.sln&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ponom\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ponom\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\ponom\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ponom\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ponom\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ponom\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MetricsAPI: https">
     <configuration name="MetricsAPI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MetricsAPI/MetricsAPI.csproj" />
@@ -248,13 +247,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/MetricsAPI.Tests/UnitTests/Database/MetricsRepositoryTests.cs</url>
-          <line>38</line>
+          <line>39</line>
           <properties documentPath="G:\DotNetProjects\MetricsAPI\MetricsAPI.Tests\UnitTests\Database\MetricsRepositoryTests.cs" initialLine="25" containingFunctionPresentation="Method 'GetMetricsByTime_AssertWithNotNull'">
             <startOffsets>
-              <option value="1157" />
+              <option value="1166" />
             </startOffsets>
             <endOffsets>
-              <option value="1158" />
+              <option value="1167" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="12" />

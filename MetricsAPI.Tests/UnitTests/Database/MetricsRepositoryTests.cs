@@ -25,6 +25,7 @@ public sealed class MetricsRepositoryTests
     public async Task InsertRangeMetrics_AssertWithOk()
     {
         var fixture = new Fixture();
+        
         var firstMetric = fixture.Create<MetricEntity>();
         var secondMetric = fixture.Create<MetricEntity>();
         
