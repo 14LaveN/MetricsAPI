@@ -3,6 +3,7 @@ using MediatR.NotificationPublishers;
 using MetricsAPI.Application.Core.Behaviours;
 using MetricsAPI.MediatR.Commands.CreateCounter;
 using MetricsAPI.MediatR.Commands.CreateHistogram;
+using MetricsAPI.MediatR.Queries.GetMetricsByNameInTime;
 
 namespace MetricsAPI.Common.DependencyInjection;
 
@@ -33,10 +34,12 @@ internal static class DiMediator
             x.RegisterServicesFromAssemblies(typeof(CreateHistogramCommand).Assembly,
                 typeof(CreateHistogramCommandHandler).Assembly);
             
+            x.RegisterServicesFromAssemblies(typeof(GetMetricsByNameInTimeQuery).Assembly,
+                typeof(GetMetricsByNameInTimeQueryHandler).Assembly);
+            
             x.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
             x.AddBehavior(typeof(IPipelineBehavior<,>), typeof(MetricsBehaviour<,>));
             x.AddOpenBehavior(typeof(QueryCachingBehavior<,>));
-            x.NotificationPublisher = new ForeachAwaitPublisher();
         });
         
         return services;

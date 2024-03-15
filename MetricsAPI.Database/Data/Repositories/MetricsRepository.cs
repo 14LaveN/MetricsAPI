@@ -21,16 +21,16 @@ public sealed class MetricsRepository
     /// </summary>
     /// <param name="dbSettings">The mongo database settings</param>
     public MetricsRepository(
-        IOptions<MongoSettings> dbSettings)
+        MongoSettings dbSettings)
     {
         var mongoClient = new MongoClient(
-            dbSettings.Value.ConnectionString);
+            dbSettings.ConnectionString);
 
         var mongoDatabase = mongoClient.GetDatabase(
-            dbSettings.Value.Database);
+            dbSettings.Database);
         
         _metricsCollection = mongoDatabase.GetCollection<MetricEntity>(
-            dbSettings.Value.MetricsCollectionName);
+            dbSettings.MetricsCollectionName);
     }
 
     /// <inheritdoc />

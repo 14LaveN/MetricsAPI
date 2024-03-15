@@ -10,6 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoFixture" Version="5.0.0-preview0009" />
         <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.3" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0"/>
         <PackageReference Include="Moq" Version="4.20.70" />
@@ -22,6 +23,11 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MetricsAPI.Database\MetricsAPI.Database.csproj" />
+      <ProjectReference Include="..\MetricsAPI\MetricsAPI.csproj" />
     </ItemGroup>
 
 </Project>

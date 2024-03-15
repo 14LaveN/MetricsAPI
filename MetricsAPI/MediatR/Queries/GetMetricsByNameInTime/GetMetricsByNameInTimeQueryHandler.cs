@@ -11,16 +11,15 @@ namespace MetricsAPI.MediatR.Queries.GetMetricsByNameInTime;
 /// <summary>
 /// Represents the <see cref="GetMetricsByNameInTimeQuery"/> handler class.
 /// </summary>
-internal sealed class GetMetricsByNameInTimeQueryHandler(
+public sealed class GetMetricsByNameInTimeQueryHandler(
     ILogger<GetMetricsByNameInTimeQueryHandler> logger,
-    IMetricsRepository metricsRepository,
-    IDistributedCache cache)
+    IMetricsRepository metricsRepository)
     : IQueryHandler<GetMetricsByNameInTimeQuery, Maybe<List<MetricResponse>>>
 {
     /// <inheritdoc />
     public async Task<Maybe<List<MetricResponse>>> Handle(
         GetMetricsByNameInTimeQuery request,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken = default)
     {
         try
         {

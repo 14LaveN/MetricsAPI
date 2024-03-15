@@ -23,7 +23,7 @@ public class Name : ValueObject
     /// <summary>
     /// Gets the name value.
     /// </summary>
-    public string Value { get; }
+    public string Value { get; set; }
 
     public static implicit operator string(Name name) =>
         name.Value;

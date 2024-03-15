@@ -36,8 +36,8 @@ public abstract class Entity : IEquatable<Entity>
     /// </summary>
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public string? Id { get; }
-    
+    public string? Id { get; set; }
+
     /// <summary>
     /// Gets or sets date/time created at.
     /// </summary>

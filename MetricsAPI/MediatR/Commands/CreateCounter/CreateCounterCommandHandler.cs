@@ -14,7 +14,7 @@ namespace MetricsAPI.MediatR.Commands.CreateCounter;
 /// <summary>
 /// Represents the <see cref="CreateCounterCommand"/> handler class.
 /// </summary>
-internal sealed class CreateCounterCommandHandler(
+public sealed class CreateCounterCommandHandler(
         ILogger<CreateCounterCommandHandler> logger,
         IMetricsRepository metricsRepository,
         IDistributedCache cache)
@@ -23,7 +23,7 @@ internal sealed class CreateCounterCommandHandler(
     //TODO How creating counter ever create new counter in redis.
     
     /// <inheritdoc />
-    public async Task<IBaseResponse<Result>> Handle(CreateCounterCommand request, CancellationToken cancellationToken)
+    public async Task<IBaseResponse<Result>> Handle(CreateCounterCommand request, CancellationToken cancellationToken = default)
     {
         try
         {
@@ -32,7 +32,7 @@ internal sealed class CreateCounterCommandHandler(
             var counters = await metricsRepository
                 .GetMetricsByTime(request.CounterName, -5);
 
-            if (counters.HasNoValue)
+            if (counters.Value.Count is 0)
             {
                 Counter counter =
                     Metrics.CreateCounter(request.CounterName, request.CounterDescription);

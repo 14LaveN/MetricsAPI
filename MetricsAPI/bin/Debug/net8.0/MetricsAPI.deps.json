@@ -844,6 +844,9 @@
         }
       },
       "MetricsAPI.Contracts/1.0.0": {
+        "dependencies": {
+          "MetricsAPI.Domain": "1.0.0"
+        },
         "runtime": {
           "MetricsAPI.Contracts.dll": {}
         }

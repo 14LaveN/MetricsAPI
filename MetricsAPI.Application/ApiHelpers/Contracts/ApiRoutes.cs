@@ -14,6 +14,6 @@ public static class ApiRoutes
         
         public const string CreateHistogram = "create-histogram";
         
-        public const string GetMetricsByNameInTime = "get-metrics-by-name-in-time/{name:string/{time:int}";
+        public const string GetMetricsByNameInTime = "get-metrics-by-name-in-time/{name:string}/{time:int}";
     }
 }

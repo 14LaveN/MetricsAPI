@@ -102,6 +102,18 @@
             <response code="400">Bad request.</response>
             <response code="500">Internal server error.</response>
         </member>
+        <member name="M:MetricsAPI.Controllers.V1.MetricsController.GetAuthorTasksByIsDone(MetricsAPI.Contracts.Metrics.GetMetric.MetricRequest)">
+            <summary>
+            Get metrics By name in time.
+            </summary>
+            <returns>Base information about get metrics by name in time  method.</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">OK.</response>
+            <response code="400">BadRequest.</response>
+            <response code="500">Internal server error</response>
+        </member>
         <member name="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand">
             <summary>
             Represents the create counter command record class.
@@ -187,6 +199,45 @@
             <summary>
             Validate the <see cref="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand"/>.
             </summary>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery">
+            <summary>
+            Represents the get metrics by name in some time record.
+            </summary>
+            <param name="MetricName">The metric name.</param>
+            <param name="Time">The time.</param>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.#ctor(MetricsAPI.Domain.Common.ValueObjects.Name,System.Int32)">
+            <summary>
+            Represents the get metrics by name in some time record.
+            </summary>
+            <param name="MetricName">The metric name.</param>
+            <param name="Time">The time.</param>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.MetricName">
+            <summary>The metric name.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Time">
+            <summary>The time.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Key">
+            <inheritdoc/>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Expiration">
+            <inheritdoc/>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler.#ctor(Microsoft.Extensions.Logging.ILogger{MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler},MetricsAPI.Database.Data.Interfaces.IMetricsRepository)">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler.Handle(MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery,System.Threading.CancellationToken)">
+            <inheritdoc />
         </member>
     </members>
 </doc>

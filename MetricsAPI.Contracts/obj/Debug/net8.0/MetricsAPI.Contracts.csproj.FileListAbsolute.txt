@@ -10,3 +10,7 @@ G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Co
 G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\refint\MetricsAPI.Contracts.dll
 G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.pdb
 G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\ref\MetricsAPI.Contracts.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\bin\Debug\net8.0\MetricsAPI.Domain.dll
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\bin\Debug\net8.0\MetricsAPI.Domain.pdb
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.csproj.AssemblyReference.cache
+G:\DotNetProjects\MetricsAPI\MetricsAPI.Contracts\obj\Debug\net8.0\MetricsAPI.Contracts.csproj.CopyComplete

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetricsAPI</name>
+    </assembly>
+    <members>
+        <member name="T:MetricsAPI.Common.DependencyInjection.DiCaching">
+            <summary>
+            Represents the dependency injection container for caching.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Common.DependencyInjection.DiCaching.AddCaching(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registers the necessary services with the DI framework.
+            </summary>
+            <param name="services">The service collection.</param>
+            <returns>The same service collection.</returns>
+        </member>
+        <member name="T:MetricsAPI.Common.DependencyInjection.DiDatabase">
+            <summary>
+            Represents the dependency injection container for database.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Common.DependencyInjection.DiDatabase.AddDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Registers the necessary services with the DI framework.
+            </summary>
+            <param name="services">The service collection.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>The same service collection.</returns>
+        </member>
+        <member name="T:MetricsAPI.Common.DependencyInjection.DiLogging">
+            <summary>
+            Represents the dependency injection container for logging.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Common.DependencyInjection.DiLogging.AddLoggingExtension(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Registers the necessary services with the DI framework.
+            </summary>
+            <param name="services">The service collection.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>The same service collection.</returns>
+        </member>
+        <member name="T:MetricsAPI.Common.DependencyInjection.DiMediator">
+            <summary>
+            Represents the dependency injection container for <see cref="N:MetricsAPI.MediatR"/>.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Common.DependencyInjection.DiMediator.AddMediatr(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registers the necessary services with the DI framework.
+            </summary>
+            <param name="services">The service collection.</param>
+            <returns>The same service collection.</returns>
+        </member>
+        <member name="T:MetricsAPI.Common.DependencyInjection.DiValidators">
+            <summary>
+            Represents the dependency injection container for validators.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Common.DependencyInjection.DiValidators.AddValidators(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registers the necessary services with the DI framework.
+            </summary>
+            <param name="services">The service collection.</param>
+            <returns>The same service collection.</returns>
+        </member>
+        <member name="T:MetricsAPI.Controllers.V1.MetricsController">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.Domain.Entities.MetricEntity"/> controller.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Controllers.V1.MetricsController.#ctor(MediatR.ISender)">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.Domain.Entities.MetricEntity"/> controller.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.Controllers.V1.MetricsController.CreateCounter(MetricsAPI.Contracts.Metrics.CreateMetric.CreateCounterRequest)">
+            <summary>
+            Create counter.
+            </summary>
+            <param name="request">The <see cref="T:MetricsAPI.Contracts.Metrics.CreateMetric.CreateCounterRequest"/> class.</param>
+            <returns>Base information about create counter method.</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">OK.</response>
+            <response code="400">Bad request.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:MetricsAPI.Controllers.V1.MetricsController.CreateHistogram(MetricsAPI.Contracts.Metrics.CreateMetric.CreateHistogramRequest)">
+            <summary>
+            Create histogram.
+            </summary>
+            <param name="request">The <see cref="T:MetricsAPI.Contracts.Metrics.CreateMetric.CreateHistogramRequest"/> class.</param>
+            <returns>Base information about create histogram method.</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">OK.</response>
+            <response code="400">Bad request.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:MetricsAPI.Controllers.V1.MetricsController.GetAuthorTasksByIsDone(MetricsAPI.Contracts.Metrics.GetMetric.MetricRequest)">
+            <summary>
+            Get metrics By name in time.
+            </summary>
+            <returns>Base information about get metrics by name in time  method.</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">OK.</response>
+            <response code="400">BadRequest.</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand">
+            <summary>
+            Represents the create counter command record class.
+            </summary>
+            <param name="CounterName">The <see cref="T:Prometheus.Counter"/> name.</param>>
+            <param name="CounterDescription">The <see cref="T:Prometheus.Counter"/> description.</param>>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand.#ctor(MetricsAPI.Domain.Common.ValueObjects.Name,System.String)">
+            <summary>
+            Represents the create counter command record class.
+            </summary>
+            <param name="CounterName">The <see cref="T:Prometheus.Counter"/> name.</param>>
+            <param name="CounterDescription">The <see cref="T:Prometheus.Counter"/> description.</param>>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand.CounterName">
+            <summary>The <see cref="T:Prometheus.Counter"/> name.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand.CounterDescription">
+            <summary>The <see cref="T:Prometheus.Counter"/> description.</summary>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandHandler">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandHandler.#ctor(Microsoft.Extensions.Logging.ILogger{MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandHandler},MetricsAPI.Database.Data.Interfaces.IMetricsRepository,Microsoft.Extensions.Caching.Distributed.IDistributedCache)">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandHandler.Handle(MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandValidator">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand"/> validator.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommandValidator.#ctor">
+            <summary>
+            Validate the <see cref="T:MetricsAPI.MediatR.Commands.CreateCounter.CreateCounterCommand"/>.
+            </summary>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand">
+            <summary>
+            Represents the create histogram command record class.
+            </summary>
+            <param name="HistogramName">The <see cref="T:Prometheus.Histogram"/> name.</param>>
+            <param name="HistogramDescription">The <see cref="T:Prometheus.Histogram"/> description.</param>>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand.#ctor(MetricsAPI.Domain.Common.ValueObjects.Name,System.String)">
+            <summary>
+            Represents the create histogram command record class.
+            </summary>
+            <param name="HistogramName">The <see cref="T:Prometheus.Histogram"/> name.</param>>
+            <param name="HistogramDescription">The <see cref="T:Prometheus.Histogram"/> description.</param>>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand.HistogramName">
+            <summary>The <see cref="T:Prometheus.Histogram"/> name.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand.HistogramDescription">
+            <summary>The <see cref="T:Prometheus.Histogram"/> description.</summary>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandHandler">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandHandler.#ctor(Microsoft.Extensions.Logging.ILogger{MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandHandler},MetricsAPI.Database.Data.Interfaces.IMetricsRepository,Microsoft.Extensions.Caching.Distributed.IDistributedCache)">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandHandler.Handle(MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandValidator">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand"/> validator class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommandValidator.#ctor">
+            <summary>
+            Validate the <see cref="T:MetricsAPI.MediatR.Commands.CreateHistogram.CreateHistogramCommand"/>.
+            </summary>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery">
+            <summary>
+            Represents the get metrics by name in some time record.
+            </summary>
+            <param name="MetricName">The metric name.</param>
+            <param name="Time">The time.</param>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.#ctor(MetricsAPI.Domain.Common.ValueObjects.Name,System.Int32)">
+            <summary>
+            Represents the get metrics by name in some time record.
+            </summary>
+            <param name="MetricName">The metric name.</param>
+            <param name="Time">The time.</param>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.MetricName">
+            <summary>The metric name.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Time">
+            <summary>The time.</summary>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Key">
+            <inheritdoc/>
+        </member>
+        <member name="P:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery.Expiration">
+            <inheritdoc/>
+        </member>
+        <member name="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler.#ctor(Microsoft.Extensions.Logging.ILogger{MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler},MetricsAPI.Database.Data.Interfaces.IMetricsRepository)">
+            <summary>
+            Represents the <see cref="T:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery"/> handler class.
+            </summary>
+        </member>
+        <member name="M:MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQueryHandler.Handle(MetricsAPI.MediatR.Queries.GetMetricsByNameInTime.GetMetricsByNameInTimeQuery,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=789a3d1f_002D27ec_002D4826_002Db861_002Da9071499c0f6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="InsertMetric_AssertWithOk" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Database.MetricsRepositoryTests.InsertMetric_AssertWithOk&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Database.MetricsRepositoryTests.GetMetricsByTime_AssertWithNotNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Database.MetricsRepositoryTests.InsertRangeMetrics_AssertWithOk&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Commands.CreateCounterCommandHandlerTests.CreateCounterCommandHandle_AssertWithOk&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F24EDCB5-0DA0-4282-A471-713961B5196E::net8.0::MetricsAPI.Tests.UnitTests.Commands.GetMetricsByNameInTimeQueryHandlerTests.GetMetricsByNameInTimeQueryHandle_AssertWithOk&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

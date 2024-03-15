@@ -82,12 +82,10 @@ public class MetricsController(ISender sender)
     /// <response code="500">Internal server error</response>
     [HttpGet(ApiRoutes.Metrics.GetMetricsByNameInTime)]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> GetAuthorTasksByIsDone(
-        string name,
-        int time) =>
+    [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetAuthorTasksByIsDone(MetricRequest request) =>
         await Maybe<GetMetricsByNameInTimeQuery>
-            .From(new GetMetricsByNameInTimeQuery())
+            .From(new GetMetricsByNameInTimeQuery(request.MetricName,request.Time))
             .Bind<GetMetricsByNameInTimeQuery, Maybe<List<MetricResponse>>>(async query => await BaseRetryPolicy.Policy.Execute(async () =>
                 await Sender.Send(query)))
             .Match(Ok, NotFound);

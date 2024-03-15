@@ -30,15 +30,4 @@ public sealed class MetricEntity : Entity
     /// </summary>
     [Required]
     public string Description { get; set; }
-    
-    /// <summary>
-    /// Mutate the description and name to <see cref="MetricEntity"/>
-    /// </summary>
-    /// <param name="description">The metric Description.</param>
-    /// <param name="name">The metric name.</param>
-    /// <returns>Returns the <see cref="MetricEntity"/>.</returns>
-    public static MetricEntity ToMetricEntity(string description, string name)
-    {
-        return new MetricEntity(name, description);
-    }
 }
