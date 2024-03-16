@@ -37,6 +37,11 @@ internal static class DiMediator
             x.RegisterServicesFromAssemblies(typeof(GetMetricsByNameInTimeQuery).Assembly,
                 typeof(GetMetricsByNameInTimeQueryHandler).Assembly);
             
+            x.NotificationPublisher = new TaskWhenAllPublisher();
+            x.NotificationPublisherType = typeof(TaskWhenAllPublisher);
+            
+            x.Lifetime = ServiceLifetime.Transient;
+            
             x.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
             x.AddBehavior(typeof(IPipelineBehavior<,>), typeof(MetricsBehaviour<,>));
             x.AddOpenBehavior(typeof(QueryCachingBehavior<,>));

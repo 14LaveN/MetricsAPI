@@ -1,8 +1,10 @@
 ﻿using System.Reflection;
 using MetricsAPI.BackgroundTasks.QuartZ;
+using MetricsAPI.BackgroundTasks.QuartZ.Jobs;
 using MetricsAPI.BackgroundTasks.QuartZ.Schedulers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Quartz;
 using Quartz.Impl;
 using Quartz.Spi;
 
@@ -22,6 +24,21 @@ public static class BDependencyInjection
         services.AddMediatR(x=>
             x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
+        services.AddQuartz(configure =>
+        {
+            var jobKey = new JobKey(nameof(SaveMetricsJob));
+
+            configure
+                .AddJob<SaveMetricsJob>(jobKey);
+            
+            configure.UseMicrosoftDependencyInjectionJobFactory();
+        });
+
+        services.AddQuartzHostedService(options =>
+        {
+            options.WaitForJobsToComplete = true;
+        });
+        
         services.AddTransient<IJobFactory, QuartzJobFactory>();
         services.AddSingleton(_ =>
         {

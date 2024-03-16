@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetricsAPI.Cache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2df258fbf6aa09892c8d87071fe837d343ccce9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3bd3071c2e4a460573f16a337477a66cfc94b5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetricsAPI.Cache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetricsAPI.Cache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

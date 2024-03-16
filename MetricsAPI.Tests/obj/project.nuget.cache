@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kgUl2v6Xs3cBjS2E6V53zZLj3AAlQpIGkvb4k3kbrTWGA3bXBZlNcaGTz3O8qZZ+/vqd3WeeusnON2DdDHQAWw==",
+  "dgSpecHash": "Rsybpm/fizPDX0D8taiQZDUhiploGt5aHZrZq88MNrufnwgMtzRrMS3jpcOVsO43fUH7KnTyBPZybGdU23gBAA==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\MetricsAPI\\MetricsAPI.Tests\\MetricsAPI.Tests.csproj",
   "expectedPackageFiles": [
@@ -85,6 +85,8 @@
     "C:\\Users\\ponom\\.nuget\\packages\\prometheus.client.aspnetcore\\5.0.0\\prometheus.client.aspnetcore.5.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\prometheus.client.httprequestdurations\\3.6.0\\prometheus.client.httprequestdurations.3.6.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\quartz\\3.8.1\\quartz.3.8.1.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\quartz.extensions.dependencyinjection\\3.8.1\\quartz.extensions.dependencyinjection.3.8.1.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\quartz.extensions.hosting\\3.8.1\\quartz.extensions.hosting.3.8.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
