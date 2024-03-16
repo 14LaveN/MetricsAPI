@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using MetricsAPI.Domain.Common.Core.Primitives;
+using MetricsAPI.Domain.Core.Utility;
 
 namespace MetricsAPI.Domain.Entities;
 
@@ -15,6 +16,9 @@ public sealed class MetricEntity : Entity
     /// <param name="description">The metric Description.</param>
     public MetricEntity(string name, string description)
     {
+        Ensure.NotEmpty(name, "The name is required.", nameof(name));
+        Ensure.NotEmpty(description, "The description is required.", nameof(description));
+        
         Name = name;
         Description = description;
     }
