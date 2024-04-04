@@ -9,7 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb24ac9-283a-452c-a464-7251a4314046" name="Changes" comment="" />
+    <list default="true" id="efb24ac9-283a-452c-a464-7251a4314046" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MetricsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Application/obj/Debug/net8.0/MetricsAPI.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.BackgroundTasks/obj/Debug/net8.0/MetricsAPI.BackgroundTasks.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Cache/obj/Debug/net8.0/MetricsAPI.Cache.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Contracts/obj/Debug/net8.0/MetricsAPI.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Database/obj/Debug/net8.0/MetricsAPI.Database.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Domain/obj/Debug/net8.0/MetricsAPI.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI.Tests/obj/Debug/net8.0/MetricsAPI.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MetricsAPI/obj/Debug/net8.0/MetricsAPI.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a2df62fb0aa34787927252bee46ecb406d8b0/2b/627c1050/ExceptionHandlerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bca6a0e6c76f4b028f339ca44991ae1285600/61/5e33fa20/CompressionLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18429a71393536d36caea68412f9b8cb5847efc4e7ed27989cba4d64c5512b/AsyncTestSyncContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/209e7287e6f9e6676b42237eff63dc1346584094eaefd0223e3135e25cbc7028/XunitTestCase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2e49d132ea68ff47071c64476ae29138fa965dc555ef7c3f4991586431de241/Task.cs" root0="SKIP_HIGHLIGHTING" />
@@ -27,6 +46,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3d39b7365ca42b2d8c4e732f62ab42f8e55276a28f58835d74b42ccc2bc1/XunitTestRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/537077dd7bfe2a87e54788c7df3634501f6ec4375670fcbffae3bcdbe6e31e/XunitTestMethodRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/688dbce4f433a52e2291fa092af648d81dc75562e42e95781a964b5e92328/XunitTestCaseRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89041a65f57949a1a4b5b53e473bdb2740910/_5fc80/CompressionLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/97dcfb9497a64d9a78bfca4ec28b52c457d66d64c9bc4d602cfdb35744f918e/TestCaseRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9eda537f15ea23cdfae523c19e87eb303a3ded88937ae7e55919387a43f70/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a53b6656d53296976cb3cae7c3f3c3797af4d1063d91228a4f1dabbd5398890/XunitTestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
@@ -180,6 +200,9 @@
       <workItem from="1710470403711" duration="2401000" />
       <workItem from="1710491246643" duration="321000" />
       <workItem from="1710495179561" duration="1378000" />
+      <workItem from="1710568432628" duration="5015000" />
+      <workItem from="1710653929061" duration="602000" />
+      <workItem from="1710928891734" duration="62000" />
     </task>
     <servers />
   </component>

@@ -10,13 +10,23 @@ spec:
   template:
     metadata:
       labels:
+        env: prod
         app:  metrics-api
     spec:
       containers:
         - name: metricsapi
           image: metricsapi:latest
           ports:
-            - containerPort: 80
+            - hostPort: 7263
+              containerPort: 80
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100mi
+            limits:
+              cpu: 200m
+              memory: 200mi
+              
 ---
 
 apiVersion: apps/v1
